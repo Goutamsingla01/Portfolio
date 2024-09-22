@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=PT+Sans&family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+display:flex; 
+flex-direction:column; 
+align-items:center; 
+margin-top:120px;
+}
+.gif{
+    height:170px;
+    /* width: 180px; */
+}
+.btn{
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color:white; 
+    border:2px solid #6e07f3; 
+    border-radius:40px;
+}
+.btn:hover{
+    background-color:#6e07f3; 
+}
+.btn:hover .btn_a{
+    color: aliceblue !important;;
+}
+.btn_a{
+    text-decoration:none; 
+    font-size:20px; 
+    color:#6e07f3;
+}
+.text1{
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2{
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight:500;
+    color: rgba(10, 10, 10, 0.9);
+}
+.message{
+    text-decoration:none; 
+    font-size:15px; 
+    color:#6e07f3;
+}
+.para{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 180px;
+}

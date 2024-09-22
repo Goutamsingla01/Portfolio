@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6e07f3;
+}
+.logocontainer{
+    margin-top: 70px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 75px;
+}
+.logo{
+    line-height: 0.7;
+    font-family: 'Teko', sans-serif ;
+    margin: 0;
+    position: absolute;
+    top: -40px;
+    background-color: #6e07f3;
+}
+.logo h2{
+    font-size: 70px;
+    color: black;
+}
+.logo h3{
+    font-size: 86px;
+    color: white;
+}
+.mauto{
+    margin-top: 20px;
+    margin-left: 140px;
+    font-family: 'Inter', sans-serif;
+}
+.mauto a{
+    font-size: 25px;
+    color: rgb(137 249 213);
+}
+.projectlist{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+}
+.fontsize{
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    color:white;
+}
+.notborder{
+    border: none;
+}
+.yearcolumn{
+    width: 100px;
+    padding-right: 10px;
+}
+.projectcolumn{
+    width: 300px;
+    padding-right: 10px;
+}
+.madeatcolumn{
+    width: 150px;
+    padding-right: 10px;
+}
+.linkcolumn{
+    width: 230px;
+    padding-right: 10px;
+}
+.linkcolumn a{
+    color: white;
+}
+.linkcolumn a:hover{
+    color: rgb(0, 0, 0);
+}

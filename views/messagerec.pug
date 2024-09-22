@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title My Site 
+    style
+        include   ../static/messagerec.css
+  body
+    div.box
+        img.gif(src='../static/received.gif', alt='login')
+        h1.text1 Hey #{data} ! 
+        h2.text2 Your message has been received.Thanks!
+        button.btn(type='button')
+            a.btn_a(href='/') < Back To Home
+        a.message(href='/message')
+            p.para Want to message again?
