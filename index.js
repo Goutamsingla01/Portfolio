@@ -18,7 +18,7 @@ app.set('view engine', 'pug')
 app.set('views',path.join(__dirname,'views'))
 
 app.get('/',(req,res)=>{
-    res.send('Server is up and running!');
+    res.sendFile(path.join(__dirname+'/views/index.html'));
 })
 app.get('/message',(req,res)=>{
     res.sendFile(path.join(__dirname+'/views/contact.html'));
