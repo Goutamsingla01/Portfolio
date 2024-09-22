@@ -38,6 +38,10 @@ app.post('/message',(req,res)=>{
 function one(){
     console.log("received");
 }
-app.listen(port,()=>{
-    console.log(`server is listening at port :${port}`)
+app.listen(port,(err) => {
+    if (err) {
+        console.error('Failed to start server:', err);
+    } else {
+        console.log(`Server is listening on port ${port}`);
+    }
 })
