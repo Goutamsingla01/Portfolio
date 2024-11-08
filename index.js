@@ -12,7 +12,7 @@ var clientSchema = new mongoose.Schema({
     concern: String
 });
 const client = mongoose.model('client', clientSchema);
-app.use('/static',express.static('static'))
+app.use(express.static('public'));
 app.use(express.urlencoded())
 // app.set('views',path.join(__dirname,'views'))  this is used for template engine 
 app.set('view engine', 'pug')
