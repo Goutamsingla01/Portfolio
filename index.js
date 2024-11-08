@@ -4,7 +4,8 @@ const path=require('path')
 const mongoose = require('mongoose');
 const port=process.env.PORT || 3000;
 
-mongoose.connect('mongodb+srv://singlagoutam12:8bMbsUOGWw0eXlGo@cluster0.br2oaia.mongodb.net/goutam?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://singlagoutam12:1146852%40Gs@cluster0.br2oaia.mongodb.net/goutam?retryWrites=true&w=majority&appName=Cluster0');
+// mongodb+srv://singlagoutam12:1146852%40Gs@cluster0.br2oaia.mongodb.net/
 var clientSchema = new mongoose.Schema({
     name: String,
     emailid: String,
